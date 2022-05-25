@@ -1,0 +1,24 @@
+body {
+  
+  background-image: url("/public/wallpaper.jpg");
+  margin: 0 auto;
+  
+  }
+
+.App {
+  text-align: center;
+}
+
+
+.App-header {
+  width: 50;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  margin-top: 0px;
+	margin-bottom: 0px;
+	color: white;
+	transition: 2.0s
+}

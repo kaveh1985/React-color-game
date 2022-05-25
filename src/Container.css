@@ -1,0 +1,53 @@
+#container {
+
+	margin: 20px auto;
+	max-width: 600px;
+}
+
+.square {
+
+    width: 29%;
+    padding-bottom: 29%;
+    float: left;
+    margin: 1.66%;
+    border-radius: 15px;
+    border: 1px solid white;
+    transition: background-color 0.7s;
+    -webkit-transition: background-color 0.7s;
+    -moz-transition: background-color 0.7s;
+
+
+}
+
+
+.square.hovering {
+
+    transition: all 0.3s;
+     -webkit-transition: background-color 0.3s;
+     -moz-transition: background-color 0.3s;
+    }
+    
+    .hovering:hover{
+    
+    color: white;
+    background-color: steelblue;
+    cursor: pointer
+
+    }
+
+    
+
+
+    
+@media screen and (max-width: 407px) {
+  
+    .square {
+      width: 45%;
+      padding-bottom: 45%;
+      float: left;
+      margin: 1.66%;
+      border-radius: 15px;
+    
+     }
+     
+    }
